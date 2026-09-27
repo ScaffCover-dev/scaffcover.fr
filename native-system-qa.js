@@ -23,7 +23,7 @@ function sync(){
  const model=mounted.querySelector('#sc-native-model'),qa=mounted.querySelector('#sc-native-qa');
  for(const [box,init] of [[model,initModel],[qa,initQA]])if(box&&!initialized.has(box)){initialized.add(box);init(box);}
  const hash=location.hash;
- if(model&&hash.startsWith('#/system')&&new URLSearchParams(hash.split('?')[1]||'').get('view')==='3d'&&lastScrollHash!==hash){lastScrollHash=hash;requestAnimationFrame(()=>document.querySelector('#sc-system-explore').scrollIntoView({block:'start'}));}
+ if(model&&hash.startsWith('#/system')&&new URLSearchParams(hash.split('?')[1]||'').get('view')==='3d'&&lastScrollHash!==hash){lastScrollHash=hash;requestAnimationFrame(()=>(document.querySelector('#native-bay').hidden&&document.querySelector('#native-load').click(),model.scrollIntoView({block:'start'})));}
  if(!hash.startsWith('#/system'))lastScrollHash='';
  document.querySelectorAll('#sc-header a[hreflang]').forEach(a=>{if(a.hreflang!==C.language)a.href=C.other+((hash.startsWith('#/system')||hash.startsWith('#/questions'))?hash:'');});
 }
@@ -32,5 +32,6 @@ window.addEventListener('message',e=>{const frame=document.querySelector('#nativ
  if(e.data?.type!=='bay-component')return;const box=document.querySelector('#native-selection');box.hidden=false;box.replaceChildren();const h=document.createElement('h3');h.textContent=e.data.name||C.detail;box.append(h);for(const text of [e.data.note,...(e.data.details||[])])if(text){const p=document.createElement('p');p.textContent=text;box.append(p);}
 });
 let queued=false;new MutationObserver(()=>{if(queued)return;queued=true;queueMicrotask(()=>{queued=false;sync();});}).observe(document.documentElement,{childList:true,subtree:true});
+document.addEventListener('click',e=>{if(!e.target.closest('.sc-inline-model'))return;e.preventDefault();e.stopImmediatePropagation();const model=document.querySelector('#sc-native-model'),frame=document.querySelector('#native-bay');if(!model||!frame)return;if(frame.hidden)document.querySelector('#native-load').click();model.scrollIntoView({block:'start'});},true);
 window.addEventListener('hashchange',sync);document.addEventListener('click',e=>{if(e.target.closest('a[href="#/system?view=3d"]')){lastScrollHash='';sync();}});sync();
 })();

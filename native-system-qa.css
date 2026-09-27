@@ -19,3 +19,15 @@
 #sc-system-explore #sys-tabs button{transition:background .15s,color .15s}
 #sc-system-explore #sys-tabs{max-width:none!important;grid-template-columns:repeat(4,minmax(0,1fr))!important}
 @media(max-width:620px){.sc-explore-heading{align-items:flex-start;flex-direction:column;gap:20px}.sc-explore-heading #native-gate{flex-direction:row;align-items:center;gap:12px}#sc-system-explore #sys-tabs{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* The pillar navigation belongs to its heading; model follows the component area. */
+.sc-explore-heading{display:block;margin-bottom:20px}.sc-explore-heading h2{max-width:none;margin:0!important}
+.sc-inline-model{color:#1f6fc0;text-decoration:underline;text-underline-offset:4px;font-weight:600}
+#sc-native-model.sc-integrated-model{max-width:1184px;margin:0 auto 48px;padding:28px clamp(24px,4vw,48px);box-sizing:border-box;border-top:1px solid #dce3eb;scroll-margin-top:90px}
+#sc-native-model h2{font-size:clamp(23px,2.4vw,30px);margin:0 0 12px}
+#sc-native-model #native-gate{margin:0;gap:16px;align-items:center}
+#sc-native-model #native-load{background:transparent;border:0;border-radius:0;padding:8px 0;color:#1f6fc0;font-size:16px;text-decoration:underline;text-underline-offset:5px;min-height:44px;text-align:left}
+#native-load:focus-visible,.sc-inline-model:focus-visible{outline:2px solid #1f6fc0;outline-offset:5px}
+#sc-native-model .sc-tour-size{font-size:12px;color:#65778a}
+
+button.sc-inline-model{display:inline;border:0;border-radius:0;background:none;padding:0;font:inherit;font-weight:600;color:#1f6fc0;cursor:pointer;text-decoration:underline;text-underline-offset:4px;text-align:inherit}
