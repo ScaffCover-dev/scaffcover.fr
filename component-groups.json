@@ -27,16 +27,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[0]",
-      "display_name": "TRSC — TrakTec Ring Connector · N002",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N003",
@@ -47,13 +45,13 @@
       ],
       "source_tag": "TVC",
       "native_path": "root/group[1]",
-      "display_name": "TVC — TrakTec Vertical Connector · N003",
+      "display_name": "TrakTec Vertical Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Vertical Connector · TVC",
-      "purpose": "Provides the vertical connection in the TrakTec arrangement. Its position and fixing follow the selected project design.",
+      "label": "TrakTec Vertical Connector",
+      "purpose": "Provides the vertical connection in the ScaffCover system.",
       "details": []
     },
     {
@@ -65,16 +63,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[2]",
-      "display_name": "TRSC — TrakTec Ring Connector · N004",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N005",
@@ -85,16 +81,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[3]",
-      "display_name": "TRSC — TrakTec Ring Connector · N005",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N006",
@@ -243,16 +237,14 @@
       ],
       "source_tag": "SG",
       "native_path": "root/group[5]",
-      "display_name": "SG — ShadeGuard (variant not specified) · N007",
+      "display_name": "ShadeGuard",
       "unconfirmed": false,
       "context": false,
       "review_note": "Source says SG. Notion distinguishes SG65 and SG99; variant needs confirmation.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "ShadeGuard · SG",
-      "purpose": "A mesh panel for screening and dust/debris containment. The exact ShadeGuard variant is not specified in this model.",
-      "details": [
-        "Choose the panel variant to suit the project. This model identifies the ShadeGuard family; it does not specify SG65 or SG99."
-      ]
+      "label": "ShadeGuard",
+      "purpose": "Mesh panels for dust and debris control and screening the work area.",
+      "details": []
     },
     {
       "id": "N008",
@@ -263,16 +255,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[6]",
-      "display_name": "TRSC — TrakTec Ring Connector · N008",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N009",
@@ -283,16 +273,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[7]",
-      "display_name": "TRSC — TrakTec Ring Connector · N009",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N010",
@@ -304,16 +292,14 @@
       ],
       "source_tag": "TSB",
       "native_path": "root/group[8]",
-      "display_name": "TSB — TrakTec Suspension Bar · N010",
+      "display_name": "TrakTec Suspension Bar",
       "unconfirmed": false,
       "context": false,
       "review_note": "Suspension bar family identified. Bay-width SKU is not specified by the source tag.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Suspension Bar · TSB",
-      "purpose": "Supports the panel and carries the fabric through deployment, recovery and storage.",
-      "details": [
-        "The suspension bar may remain inside the rolled fabric during storage, ready for the next suitable project. Match its width to the scaffold bay."
-      ]
+      "label": "TrakTec Suspension Bar",
+      "purpose": "Supports the fabric during deployment, recovery and storage.",
+      "details": []
     },
     {
       "id": "N011",
@@ -326,16 +312,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[9]",
-      "display_name": "TT — TrakTec Track · N011",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N012",
@@ -360,11 +344,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N013",
@@ -389,11 +371,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N014",
@@ -404,16 +384,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[12]",
-      "display_name": "TT — TrakTec Track · N014",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N015",
@@ -424,13 +402,13 @@
       ],
       "source_tag": "TVC",
       "native_path": "root/group[13]",
-      "display_name": "TVC — TrakTec Vertical Connector · N015",
+      "display_name": "TrakTec Vertical Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Vertical Connector · TVC",
-      "purpose": "Provides the vertical connection in the TrakTec arrangement. Its position and fixing follow the selected project design.",
+      "label": "TrakTec Vertical Connector",
+      "purpose": "Provides the vertical connection in the ScaffCover system.",
       "details": []
     },
     {
@@ -442,13 +420,13 @@
       ],
       "source_tag": "TVC",
       "native_path": "root/group[14]",
-      "display_name": "TVC — TrakTec Vertical Connector · N016",
+      "display_name": "TrakTec Vertical Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Vertical Connector · TVC",
-      "purpose": "Provides the vertical connection in the TrakTec arrangement. Its position and fixing follow the selected project design.",
+      "label": "TrakTec Vertical Connector",
+      "purpose": "Provides the vertical connection in the ScaffCover system.",
       "details": []
     },
     {
@@ -492,11 +470,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N019",
@@ -525,13 +501,13 @@
       ],
       "source_tag": "TVC",
       "native_path": "root/group[18]",
-      "display_name": "TVC — TrakTec Vertical Connector · N020",
+      "display_name": "TrakTec Vertical Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Vertical Connector · TVC",
-      "purpose": "Provides the vertical connection in the TrakTec arrangement. Its position and fixing follow the selected project design.",
+      "label": "TrakTec Vertical Connector",
+      "purpose": "Provides the vertical connection in the ScaffCover system.",
       "details": []
     },
     {
@@ -543,13 +519,13 @@
       ],
       "source_tag": "TVC",
       "native_path": "root/group[19]",
-      "display_name": "TVC — TrakTec Vertical Connector · N021",
+      "display_name": "TrakTec Vertical Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Vertical Connector · TVC",
-      "purpose": "Provides the vertical connection in the TrakTec arrangement. Its position and fixing follow the selected project design.",
+      "label": "TrakTec Vertical Connector",
+      "purpose": "Provides the vertical connection in the ScaffCover system.",
       "details": []
     },
     {
@@ -575,11 +551,9 @@
       "context": false,
       "review_note": "Name, code and function confirmed by Troy on 27 September 2026.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "Articulation Connector · ARC",
-      "purpose": "Centres the connecting scaffold tube on the scaffold standard, keeping the ScaffCover track in line with the standard.",
-      "details": [
-        "A dedicated component used with the ScaffCover system; it is not a standard scaffold component."
-      ]
+      "label": "Articulation Connector",
+      "purpose": "Aligns the connecting scaffold tube and ScaffCover track with the scaffold upright.",
+      "details": []
     },
     {
       "id": "N023",
@@ -590,16 +564,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[21]",
-      "display_name": "TT — TrakTec Track · N023",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N024",
@@ -610,16 +582,14 @@
       ],
       "source_tag": "RG",
       "native_path": "root/group[22]",
-      "display_name": "RG — RainGuard · N024",
+      "display_name": "RainGuard",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "RainGuard · RG",
-      "purpose": "Provides a rain-protection surface. The roof arrangement also needs suitable support, falls and drainage.",
-      "details": [
-        "Select the panel and roof arrangement for the project. Coordinate support, falls and drainage."
-      ]
+      "label": "RainGuard",
+      "purpose": "Panels for rain protection around scaffold and covered work areas.",
+      "details": []
     },
     {
       "id": "N025",
@@ -634,16 +604,14 @@
       ],
       "source_tag": "TSB",
       "native_path": "root/group[23]",
-      "display_name": "TSB — TrakTec Suspension Bar · N025",
+      "display_name": "TrakTec Suspension Bar",
       "unconfirmed": false,
       "context": false,
       "review_note": "Suspension bar family identified. Bay-width SKU is not specified by the source tag.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Suspension Bar · TSB",
-      "purpose": "Supports the panel and carries the fabric through deployment, recovery and storage.",
-      "details": [
-        "The suspension bar may remain inside the rolled fabric during storage, ready for the next suitable project. Match its width to the scaffold bay."
-      ]
+      "label": "TrakTec Suspension Bar",
+      "purpose": "Supports the fabric during deployment, recovery and storage.",
+      "details": []
     },
     {
       "id": "N026",
@@ -658,16 +626,14 @@
       ],
       "source_tag": "TSB",
       "native_path": "root/group[24]",
-      "display_name": "TSB — TrakTec Suspension Bar · N026",
+      "display_name": "TrakTec Suspension Bar",
       "unconfirmed": false,
       "context": false,
       "review_note": "Suspension bar family identified. Bay-width SKU is not specified by the source tag.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Suspension Bar · TSB",
-      "purpose": "Supports the panel and carries the fabric through deployment, recovery and storage.",
-      "details": [
-        "The suspension bar may remain inside the rolled fabric during storage, ready for the next suitable project. Match its width to the scaffold bay."
-      ]
+      "label": "TrakTec Suspension Bar",
+      "purpose": "Supports the fabric during deployment, recovery and storage.",
+      "details": []
     },
     {
       "id": "N027",
@@ -678,16 +644,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[25]",
-      "display_name": "TRSC — TrakTec Ring Connector · N027",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N028",
@@ -698,16 +662,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[26]",
-      "display_name": "TRSC — TrakTec Ring Connector · N028",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N029",
@@ -718,16 +680,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[27]",
-      "display_name": "TRSC — TrakTec Ring Connector · N029",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N030",
@@ -738,16 +698,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[28]",
-      "display_name": "TRSC — TrakTec Ring Connector · N030",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N031",
@@ -758,16 +716,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[29]",
-      "display_name": "TRSC — TrakTec Ring Connector · N031",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N032",
@@ -778,16 +734,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[30]",
-      "display_name": "TRSC — TrakTec Ring Connector · N032",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N033",
@@ -799,16 +753,14 @@
       ],
       "source_tag": "TSB",
       "native_path": "root/group[31]",
-      "display_name": "TSB — TrakTec Suspension Bar · N033",
+      "display_name": "TrakTec Suspension Bar",
       "unconfirmed": false,
       "context": false,
       "review_note": "Suspension bar family identified. Bay-width SKU is not specified by the source tag.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Suspension Bar · TSB",
-      "purpose": "Supports the panel and carries the fabric through deployment, recovery and storage.",
-      "details": [
-        "The suspension bar may remain inside the rolled fabric during storage, ready for the next suitable project. Match its width to the scaffold bay."
-      ]
+      "label": "TrakTec Suspension Bar",
+      "purpose": "Supports the fabric during deployment, recovery and storage.",
+      "details": []
     },
     {
       "id": "N034",
@@ -820,16 +772,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[32]",
-      "display_name": "TT — TrakTec Track · N034",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N035",
@@ -841,16 +791,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[33]",
-      "display_name": "TT — TrakTec Track · N035",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N036",
@@ -861,16 +809,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[34]",
-      "display_name": "TRSC — TrakTec Ring Connector · N036",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N037",
@@ -881,16 +827,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[35]",
-      "display_name": "TRSC — TrakTec Ring Connector · N037",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N038",
@@ -902,16 +846,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[36]",
-      "display_name": "TT — TrakTec Track · N038",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N039",
@@ -922,16 +864,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[37]",
-      "display_name": "TRSC — TrakTec Ring Connector · N039",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N040",
@@ -942,16 +882,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[38]",
-      "display_name": "TRSC — TrakTec Ring Connector · N040",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N041",
@@ -962,16 +900,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[39]",
-      "display_name": "TRSC — TrakTec Ring Connector · N041",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N042",
@@ -983,16 +919,14 @@
       ],
       "source_tag": "TT",
       "native_path": "root/group[40]",
-      "display_name": "TT — TrakTec Track · N042",
+      "display_name": "TrakTec Track",
       "unconfirmed": false,
       "context": false,
       "review_note": "Track family identified. Source does not specify TT1, TT3 or another length SKU.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track · TT",
-      "purpose": "Guides the panel edge along the selected containment layout.",
-      "details": [
-        "Track height, length and layout are configured for the project. Adjacent sections connect with track joiners."
-      ]
+      "label": "TrakTec Track",
+      "purpose": "Guides and holds the panel edges along the scaffold.",
+      "details": []
     },
     {
       "id": "N043",
@@ -1003,16 +937,14 @@
       ],
       "source_tag": "TRSC",
       "native_path": "root/group[41]",
-      "display_name": "TRSC — TrakTec Ring Connector · N043",
+      "display_name": "TrakTec Ring Connector",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Ring Connector · TRSC",
-      "purpose": "Connects the TrakTec arrangement to compatible ringlock scaffold. Select it to suit the scaffold and project detail.",
-      "details": [
-        "The connection is selected to suit the actual scaffold system and project arrangement."
-      ]
+      "label": "TrakTec Ring Connector",
+      "purpose": "Connects the ScaffCover system to ringlock scaffold.",
+      "details": []
     },
     {
       "id": "N044",
@@ -1052,8 +984,8 @@
       "context": false,
       "review_note": "Name and code confirmed by Troy on 27 September 2026; function from prior founder training direction.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Articulated Extension Bar · TAEB",
-      "purpose": "Allows horizontal and vertical angle adjustment of the suspension bar.",
+      "label": "TrakTec Articulated Extension Bar",
+      "purpose": "Adjusts the suspension bar angle horizontally and vertically.",
       "details": [],
       "code": "TAEB"
     },
@@ -1066,16 +998,14 @@
       ],
       "source_tag": "RG",
       "native_path": "root/group[43]",
-      "display_name": "RG — RainGuard · N045",
+      "display_name": "RainGuard",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "RainGuard · RG",
-      "purpose": "Provides a rain-protection surface. The roof arrangement also needs suitable support, falls and drainage.",
-      "details": [
-        "Select the panel and roof arrangement for the project. Coordinate support, falls and drainage."
-      ]
+      "label": "RainGuard",
+      "purpose": "Panels for rain protection around scaffold and covered work areas.",
+      "details": []
     },
     {
       "id": "N046",
@@ -1086,16 +1016,14 @@
       ],
       "source_tag": "SG",
       "native_path": "root/group[44]",
-      "display_name": "SG — ShadeGuard (variant not specified) · N046",
+      "display_name": "ShadeGuard",
       "unconfirmed": false,
       "context": false,
       "review_note": "Source says SG. Notion distinguishes SG65 and SG99; variant needs confirmation.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "ShadeGuard · SG",
-      "purpose": "A mesh panel for screening and dust/debris containment. The exact ShadeGuard variant is not specified in this model.",
-      "details": [
-        "Choose the panel variant to suit the project. This model identifies the ShadeGuard family; it does not specify SG65 or SG99."
-      ]
+      "label": "ShadeGuard",
+      "purpose": "Mesh panels for dust and debris control and screening the work area.",
+      "details": []
     },
     {
       "id": "N047",
@@ -1147,16 +1075,14 @@
       ],
       "source_tag": "Roller Assembly",
       "native_path": "root/group[45]",
-      "display_name": "Roller Assembly — Roller Assembly · N047",
+      "display_name": "Roller Assembly",
       "unconfirmed": true,
       "context": false,
       "review_note": "Function confirmed by Troy on 27 September 2026; detailed assembly sequence remains project-specific.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
       "label": "Roller Assembly",
-      "purpose": "Connects to the scaffold through the bottom of the ScaffCover track, allowing the fabric to be deployed onto and removed from the scaffold.",
-      "details": [
-        "Works as part of the ScaffCover deployment and recovery system."
-      ]
+      "purpose": "Helps deploy and recover the fabric on the scaffold.",
+      "details": []
     },
     {
       "id": "N048",
@@ -1187,16 +1113,14 @@
       ],
       "source_tag": "TTJ",
       "native_path": "root/instance[2]",
-      "display_name": "TTJ — TrakTec Track Joiner · N049",
+      "display_name": "TrakTec Track Joiner",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track Joiner · TTJ",
-      "purpose": "Joins adjacent track sections to continue the track run.",
-      "details": [
-        "Used where the layout requires adjoining track sections."
-      ]
+      "label": "TrakTec Track Joiner",
+      "purpose": "Connects adjacent track sections.",
+      "details": []
     },
     {
       "id": "N050",
@@ -1208,16 +1132,14 @@
       ],
       "source_tag": "TTG",
       "native_path": "root/instance[3]",
-      "display_name": "TTG — TrakTec Textile Guide · N050",
+      "display_name": "TrakTec Textile Guide",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Textile Guide · TTG",
-      "purpose": "Guides the textile into the track during deployment.",
-      "details": [
-        "Used with the track and panel edge as part of the deployment arrangement."
-      ]
+      "label": "TrakTec Textile Guide",
+      "purpose": "Guides the fabric into the track during deployment.",
+      "details": []
     },
     {
       "id": "N051",
@@ -1233,8 +1155,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1248,16 +1170,14 @@
       ],
       "source_tag": "TTG",
       "native_path": "root/instance[5]",
-      "display_name": "TTG — TrakTec Textile Guide · N052",
+      "display_name": "TrakTec Textile Guide",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Textile Guide · TTG",
-      "purpose": "Guides the textile into the track during deployment.",
-      "details": [
-        "Used with the track and panel edge as part of the deployment arrangement."
-      ]
+      "label": "TrakTec Textile Guide",
+      "purpose": "Guides the fabric into the track during deployment.",
+      "details": []
     },
     {
       "id": "N053",
@@ -1274,8 +1194,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1293,8 +1213,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1313,8 +1233,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1333,8 +1253,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1353,8 +1273,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1373,8 +1293,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1389,16 +1309,14 @@
       ],
       "source_tag": "TTJ",
       "native_path": "root/instance[12]",
-      "display_name": "TTJ — TrakTec Track Joiner · N059",
+      "display_name": "TrakTec Track Joiner",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track Joiner · TTJ",
-      "purpose": "Joins adjacent track sections to continue the track run.",
-      "details": [
-        "Used where the layout requires adjoining track sections."
-      ]
+      "label": "TrakTec Track Joiner",
+      "purpose": "Connects adjacent track sections.",
+      "details": []
     },
     {
       "id": "N060",
@@ -1411,16 +1329,14 @@
       ],
       "source_tag": "TTJ",
       "native_path": "root/instance[13]",
-      "display_name": "TTJ — TrakTec Track Joiner · N060",
+      "display_name": "TrakTec Track Joiner",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track Joiner · TTJ",
-      "purpose": "Joins adjacent track sections to continue the track run.",
-      "details": [
-        "Used where the layout requires adjoining track sections."
-      ]
+      "label": "TrakTec Track Joiner",
+      "purpose": "Connects adjacent track sections.",
+      "details": []
     },
     {
       "id": "N061",
@@ -1437,8 +1353,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1456,8 +1372,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1472,16 +1388,14 @@
       ],
       "source_tag": "TTJ",
       "native_path": "root/instance[16]",
-      "display_name": "TTJ — TrakTec Track Joiner · N063",
+      "display_name": "TrakTec Track Joiner",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track Joiner · TTJ",
-      "purpose": "Joins adjacent track sections to continue the track run.",
-      "details": [
-        "Used where the layout requires adjoining track sections."
-      ]
+      "label": "TrakTec Track Joiner",
+      "purpose": "Connects adjacent track sections.",
+      "details": []
     },
     {
       "id": "N064",
@@ -1494,16 +1408,14 @@
       ],
       "source_tag": "TTJ",
       "native_path": "root/instance[17]",
-      "display_name": "TTJ — TrakTec Track Joiner · N064",
+      "display_name": "TrakTec Track Joiner",
       "unconfirmed": false,
       "context": false,
       "review_note": "Name matched to Notion Products & SKUs; geometry and fit still need review.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Track Joiner · TTJ",
-      "purpose": "Joins adjacent track sections to continue the track run.",
-      "details": [
-        "Used where the layout requires adjoining track sections."
-      ]
+      "label": "TrakTec Track Joiner",
+      "purpose": "Connects adjacent track sections.",
+      "details": []
     },
     {
       "id": "N065",
@@ -1519,8 +1431,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     },
@@ -1538,8 +1450,8 @@
       "context": false,
       "review_note": "Displayed naming follows latest direct Troy instruction on 27 September 2026; native source tag retained for traceability.",
       "basis": "Original imported parent hierarchy; native root matched by exact translation and kind, not old IDs.",
-      "label": "TrakTec Wall Clamp · KWC",
-      "purpose": "Used with the suspension bar to position the panel at the required height in the selected project arrangement.",
+      "label": "TrakTec Wall Clamp",
+      "purpose": "Positions the suspension bar and panel at the required height.",
       "details": [],
       "code": "KWC"
     }
