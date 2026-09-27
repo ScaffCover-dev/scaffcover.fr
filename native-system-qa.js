@@ -3,7 +3,7 @@ const C={"title": "Explorez le système en 3D", "intro": "Sélectionnez un compo
 const initialized=new WeakSet();let lastScrollHash='';
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function initModel(box){
- const load=box.querySelector('#native-load'),gate=box.querySelector('#native-gate'),frame=box.querySelector('#native-bay');
+ const load=document.querySelector('#native-load'),gate=document.querySelector('#native-gate'),frame=box.querySelector('#native-bay');
  frame.hidden=true;box.querySelector('#native-hint').hidden=true;box.querySelector('#native-model-note').hidden=true;box.querySelector('#native-selection').hidden=true;
  const selection=box.querySelector('#native-selection');const h=document.createElement('h3'),p=document.createElement('p');h.textContent=C.detail;p.textContent=C.prompt;selection.append(h,p);
  load.addEventListener('click',()=>{frame.hidden=false;frame.src=frame.dataset.src;gate.hidden=true;box.querySelector('#native-hint').hidden=false;box.querySelector('#native-model-note').hidden=false;});
@@ -23,7 +23,7 @@ function sync(){
  const model=mounted.querySelector('#sc-native-model'),qa=mounted.querySelector('#sc-native-qa');
  for(const [box,init] of [[model,initModel],[qa,initQA]])if(box&&!initialized.has(box)){initialized.add(box);init(box);}
  const hash=location.hash;
- if(model&&hash.startsWith('#/system')&&new URLSearchParams(hash.split('?')[1]||'').get('view')==='3d'&&lastScrollHash!==hash){lastScrollHash=hash;requestAnimationFrame(()=>model.scrollIntoView({block:'start'}));}
+ if(model&&hash.startsWith('#/system')&&new URLSearchParams(hash.split('?')[1]||'').get('view')==='3d'&&lastScrollHash!==hash){lastScrollHash=hash;requestAnimationFrame(()=>document.querySelector('#sc-system-explore').scrollIntoView({block:'start'}));}
  if(!hash.startsWith('#/system'))lastScrollHash='';
  document.querySelectorAll('#sc-header a[hreflang]').forEach(a=>{if(a.hreflang!==C.language)a.href=C.other+((hash.startsWith('#/system')||hash.startsWith('#/questions'))?hash:'');});
 }
