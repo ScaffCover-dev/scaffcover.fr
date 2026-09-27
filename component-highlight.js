@@ -34,9 +34,9 @@ export function createComponentHighlight() {
       list(mesh.material).forEach((material, index) => {
         const original = list(entry.original)[index];
         // Colour the surface itself so pale panels do not wash the highlight out.
-        if (material.color) material.color.set(0xbe001b);
+        if (material.color) material.color.set(0x1f6fc0);
         if (material.emissive) {
-          material.emissive.set(0xff001a);
+          material.emissive.set(0x2790ed);
           material.emissiveIntensity = 0.18 + 0.16 * wave;
         }
 

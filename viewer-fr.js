@@ -1,5 +1,5 @@
 import * as T from 'three';
-import {createComponentHighlight} from './component-highlight.js?v=deep-red-2';
+import {createComponentHighlight} from './component-highlight.js?v=scaffcover-blue-20260927';
 const highlighter=createComponentHighlight(),reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 import {OrbitControls} from './OrbitControls.js';
 import {GLTFLoader} from './GLTFLoader.js';
