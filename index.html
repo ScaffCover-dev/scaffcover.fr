@@ -773,24 +773,49 @@ a:focus-visible,button:focus-visible{outline:3px solid #298eeb;outline-offset:3p
 
   <div class="ct-panel" style="border:1px solid #e2e6ec; border-radius:8px; padding:clamp(24px,3vw,36px); background:#ffffff; display:flex; flex-direction:column; gap:18px; min-width:0;">
     <div style="font-family:'Inter Tight', sans-serif; font-size:19px; font-weight:700; color:#091c30;">Parlons de votre projet</div>
-<section class="sc-enquiry"><div id="sc-contact-unavailable" role="status" style="padding:24px;border:1px solid #d7e2ed;border-radius:6px;background:#f4f7fb"><h2 style="margin:0 0 12px;font-size:22px;color:#091c30">Formulaire temporairement indisponible</h2><p style="margin:0 0 16px;line-height:1.65">L’envoi de demandes en ligne est temporairement indisponible. Aucune information ne sera transmise depuis cette page.</p><p style="margin:0;line-height:1.65">Retrouvez ScaffCover à BATIMAT, du 28 septembre au 1er octobre 2026, à Paris Expo Porte de Versailles : <strong>Hall 5.1 · Stand F038</strong>.</p></div></section>
+<section class="sc-enquiry">
+<form class="sc-enquiry-form" data-site="fr">
+<div class="f"><label for="enq-first">Prénom *</label><input id="enq-first" name="firstName" autocomplete="given-name" maxlength="80"></div>
+<div class="f"><label for="enq-last">Nom</label><input id="enq-last" name="lastName" autocomplete="family-name" maxlength="80"></div>
+<div class="f"><label for="enq-email">E-mail *</label><input id="enq-email" name="email" type="email" autocomplete="email" maxlength="200" required></div>
+<div class="f"><label for="enq-phone">Téléphone</label><input id="enq-phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></div>
+<div class="f wide"><label for="enq-company">Entreprise *</label><input id="enq-company" name="company" autocomplete="organization" maxlength="200"></div>
+<div class="f"><label for="enq-reason">Objet</label><select id="enq-reason" name="reason"><option value="Parlons de votre projet">Parlons de votre projet</option><option value="Fiche technique">Fiche technique</option><option value="Dossier technique">Dossier technique</option><option value="Brochure">Brochure</option><option value="Formation / assistance au montage">Formation / assistance au montage</option></select></div>
+<div class="f"><label for="enq-product">Produit</label><select id="enq-product" name="product"><option value="Demande générale">Demande générale</option><option value="NetGuard">NetGuard</option><option value="ShadeGuard">ShadeGuard</option><option value="RainGuard">RainGuard</option><option value="PrintGuard">PrintGuard</option><option value="PrintGuard Air">PrintGuard Air</option><option value="BlastGuard">BlastGuard</option><option value="TrakTec">TrakTec</option></select></div>
+<div class="f wide"><label for="enq-message">Votre message</label><textarea id="enq-message" name="message" rows="6" maxlength="4000"></textarea></div>
+<div class="hp" aria-hidden="true"><label for="enq-hp">Laissez ce champ vide</label><input id="enq-hp" name="website_confirm" tabindex="-1" autocomplete="off"></div>
+<div class="f wide check"><label><input type="checkbox" name="newsOptIn"> Je souhaite recevoir les actualités et nouveautés ScaffCover (désinscription possible à tout moment).</label></div>
+<div class="f wide turnstile-slot"></div>
+<div class="f wide"><button type="submit">Envoyer la demande</button><p class="status" role="status" aria-live="polite"></p><p class="privacy">Vos coordonnées servent uniquement à répondre à votre demande.</p></div>
+</form>
+<div class="sc-enquiry-done" tabindex="-1"><h2>Merci, nous avons bien reçu votre demande.</h2><p>Notre équipe vous recontactera rapidement.</p></div>
+</section>
 <style>
 .sc-enquiry{--ink:#102c43;--blue:#008fe5;color:var(--ink);font-family:"Inter Tight",sans-serif;container-type:inline-size}
 .sc-enquiry *{box-sizing:border-box}
-.sc-enquiry .moonray-form-p2c269075f25,.sc-enquiry .moonray-form{width:100%!important;max-width:none!important;background:transparent!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}
-.sc-enquiry form.moonray-form-clearfix{display:grid!important;grid-template-columns:1fr 1fr;gap:24px 22px;width:100%!important;margin:0!important;padding:0!important}
-.sc-enquiry form:before,.sc-enquiry form:after{display:none!important}
-.sc-enquiry .moonray-form-element-wrapper{float:none!important;width:100%!important;min-width:0!important;margin:0!important;padding:0!important;clear:none!important;text-align:left!important}
-.sc-enquiry .moonray-form-label{display:block!important;color:var(--ink)!important;font:600 14px/1.5 "Inter Tight",sans-serif!important;margin:0 0 8px!important;padding:0!important}
-.sc-enquiry .moonray-form-input:not([type=hidden]):not([type=submit]){display:block!important;width:100%!important;max-width:100%!important;min-height:52px;height:auto!important;border:1px solid #cbd8e1!important;border-radius:6px!important;background:#fff!important;color:var(--ink)!important;box-shadow:none!important;padding:14px 16px!important;font:400 16px/1.5 "Inter Tight",sans-serif!important}
-.sc-enquiry .moonray-form-input:focus-visible{outline:3px solid #89c9ef!important;outline-offset:3px}
-.sc-enquiry .moonray-form-input-type-textarea,.sc-enquiry .moonray-form-input-type-submit,.sc-enquiry .moonray-form-element-wrapper:nth-child(5){grid-column:1/-1}
+.sc-enquiry form{display:grid;grid-template-columns:1fr 1fr;gap:24px 22px;margin:0}
+.sc-enquiry .sc-enquiry-done,.sc-enquiry.is-sent form{display:none}
+.sc-enquiry.is-sent .sc-enquiry-done{display:block}
+.sc-enquiry .f{min-width:0}
+.sc-enquiry .wide{grid-column:1/-1}
+.sc-enquiry label{display:block;color:var(--ink);font:600 14px/1.5 "Inter Tight",sans-serif;margin:0 0 8px}
+.sc-enquiry input:not([type=checkbox]),.sc-enquiry select,.sc-enquiry textarea{display:block;width:100%;min-height:52px;border:1px solid #cbd8e1;border-radius:6px;background:#fff;color:var(--ink);padding:14px 16px;font:400 16px/1.5 "Inter Tight",sans-serif}
+.sc-enquiry [aria-invalid=true]{border-color:#c0392b}
+.sc-enquiry input:focus-visible,.sc-enquiry select:focus-visible,.sc-enquiry textarea:focus-visible,.sc-enquiry button:focus-visible{outline:3px solid #89c9ef;outline-offset:3px}
 .sc-enquiry textarea{resize:vertical;min-height:150px}
-.sc-enquiry input[type=submit]{width:auto!important;min-width:200px;min-height:52px;padding:15px 26px!important;border:0!important;border-radius:6px!important;background:var(--blue)!important;color:white!important;font:700 15px/1.4 "Inter Tight",sans-serif!important;cursor:pointer;box-shadow:none!important}
-.sc-enquiry input[type=submit]:hover{background:#0678ba!important}
-.sc-enquiry .moonray-form-input-type-hidden{display:none!important}
-@container(max-width:480px){.sc-enquiry form.moonray-form-clearfix{grid-template-columns:1fr;gap:20px}.sc-enquiry input[type=submit]{width:100%!important;min-width:0!important}}
-@media(max-width:560px){.sc-enquiry form.moonray-form-clearfix{grid-template-columns:1fr;gap:20px}.sc-enquiry input[type=submit]{width:100%!important;min-width:0!important}}
+.sc-enquiry .check label{display:flex;gap:10px;align-items:flex-start;font-weight:400}
+.sc-enquiry .check input{margin-top:4px;width:18px;height:18px;flex:none}
+.sc-enquiry .hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.sc-enquiry button{min-width:200px;min-height:52px;padding:15px 26px;border:0;border-radius:6px;background:var(--blue);color:#fff;font:700 15px/1.4 "Inter Tight",sans-serif;cursor:pointer}
+.sc-enquiry button:hover{background:#0678ba}
+.sc-enquiry button:disabled{opacity:.6;cursor:wait}
+.sc-enquiry .status{margin:12px 0 0;min-height:1.5em;color:#8a2a1f;font-size:15px}
+.sc-enquiry .privacy{margin:4px 0 0;color:#5b6472;font-size:13px}
+.sc-enquiry-done{padding:24px;border:1px solid #d7e2ed;border-radius:6px;background:#f4f7fb}
+.sc-enquiry-done h2{margin:0 0 8px;font-size:22px;color:#091c30}
+.sc-enquiry-done p{margin:0;line-height:1.65}
+@container(max-width:480px){.sc-enquiry form{grid-template-columns:1fr;gap:20px}.sc-enquiry .f{grid-column:1/-1}.sc-enquiry button{width:100%;min-width:0}}
+@media(max-width:560px){.sc-enquiry form{grid-template-columns:1fr;gap:20px}.sc-enquiry .f{grid-column:1/-1}.sc-enquiry button{width:100%;min-width:0}}
 </style>
   </div>
 </div>
@@ -1570,7 +1595,57 @@ class Component extends DCLogic {
 <style id="laptop-home-viewport-20260927">
 @media(min-width:821px){#home-hero-grid{height:auto!important;min-height:calc(100svh - 65px)!important;grid-template-rows:auto!important;}#home-hero-grid>div:first-child{min-height:calc(100svh - 65px);}}
 @media(min-width:851px){.vf-hero{min-height:calc(100svh - 65px);}.vf-hero>figure{min-height:calc(100svh - 65px);}}
-</style></body>
+</style><script>
+// Website enquiry form (13 Nov 2026): sends to the ScaffCover Portal, not Ontraport.
+// The live websites post to the live portal; preview copies post to the dev portal.
+(()=>{
+ const LIVE_HOSTS=['www.scaffcover.com','scaffcover.com','scaffcover.fr','www.scaffcover.fr'];
+ const ENDPOINT=LIVE_HOSTS.includes(location.hostname)?'https://app.scaffcover.com/api/public/enquiry':'https://portal.scaffcover.awesomate.dev/api/public/enquiry';
+ const TURNSTILE_SITEKEY=''; // Cloudflare Turnstile, once set up
+ const KEYS=/^(utm_[a-z]+|gclid|gbraid|wbraid|fbclid|msclkid|li_fat_id)$/;
+ const params=()=>{const out={};const add=(qs)=>new URLSearchParams(qs).forEach((v,k)=>{if(KEYS.test(k)&&v)out[k]=v.slice(0,200);});add(location.search);const h=location.hash.split('?')[1];if(h)add(h);return out;};
+ // Where the visitor came from is kept for the visit, so it survives moving between pages.
+ let tracking={};
+ try{tracking=JSON.parse(sessionStorage.getItem('sc-enq-tracking')||'{}');}catch(e){}
+ const now=params();
+ if(Object.keys(now).length)tracking=now;
+ if(!tracking.referrer&&document.referrer&&!document.referrer.includes(location.hostname))tracking.referrer=document.referrer.slice(0,200);
+ try{sessionStorage.setItem('sc-enq-tracking',JSON.stringify(tracking));}catch(e){}
+ const fr=(f)=>f.dataset.site==='fr';
+ const say=(f,en,fra)=>fr(f)?fra:en;
+ const ready=(f)=>{
+  if(f.dataset.started)return;f.dataset.started=String(Date.now());
+  const q=new URLSearchParams(location.hash.split('?')[1]||'');
+  for(const [n,v] of [['reason',q.get('reason')],['product',q.get('product')]]){const sel=f.elements[n];if(sel&&v&&[...sel.options].some(o=>o.value===v))sel.value=v;}
+  if(TURNSTILE_SITEKEY){const slot=f.querySelector('.turnstile-slot');if(slot&&!slot.firstChild){slot.innerHTML='<div class="cf-turnstile" data-sitekey="'+TURNSTILE_SITEKEY+'"></div>';if(!document.getElementById('cf-turnstile-js')){const s=document.createElement('script');s.id='cf-turnstile-js';s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';s.async=true;document.head.appendChild(s);}else if(window.turnstile)window.turnstile.render(slot.firstChild);}}
+ };
+ const scan=()=>document.querySelectorAll('form.sc-enquiry-form').forEach(ready);
+ new MutationObserver(scan).observe(document.documentElement,{childList:true,subtree:true});scan();
+ document.addEventListener('submit',async(ev)=>{
+  const f=ev.target;if(!(f instanceof HTMLFormElement)||!f.classList.contains('sc-enquiry-form'))return;
+  ev.preventDefault();
+  const status=f.querySelector('.status');const btn=f.querySelector('button[type=submit]');
+  const v=(n)=>(f.elements[n]&&f.elements[n].value||'').trim();
+  f.querySelectorAll('[aria-invalid]').forEach(e=>e.removeAttribute('aria-invalid'));
+  const bad=[['firstName',!v('firstName')],['email',!/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(v('email'))],['company',!v('company')]].filter(x=>x[1]).map(x=>x[0]);
+  if(bad.length){bad.forEach(n=>f.elements[n].setAttribute('aria-invalid','true'));f.elements[bad[0]].focus();status.textContent=say(f,'Please fill in your first name, a valid email and your company.','Merci d’indiquer votre prénom, une adresse e-mail valide et votre entreprise.');return;}
+  const data={firstName:v('firstName'),lastName:v('lastName'),email:v('email'),phone:v('phone'),company:v('company'),reason:v('reason'),product:v('product'),message:v('message'),newsOptIn:!!(f.elements.newsOptIn&&f.elements.newsOptIn.checked),website:v('website_confirm'),startedAt:Number(f.dataset.started)||0,site:f.dataset.site||'com',page:(location.pathname+location.hash).slice(0,300),tracking};
+  const tok=f.querySelector('[name="cf-turnstile-response"]');if(tok)data.turnstileToken=tok.value;
+  btn.disabled=true;status.textContent=say(f,'Sending…','Envoi en cours…');
+  try{
+   const r=await fetch(ENDPOINT,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(data)});
+   const j=await r.json().catch(()=>({}));
+   if(!r.ok)throw new Error(j.error||'');
+   const box=f.closest('.sc-enquiry');box.classList.add('is-sent');const done=box.querySelector('.sc-enquiry-done');if(done)done.focus();
+   try{window.dataLayer&&window.dataLayer.push({event:'enquiry_sent',site:data.site});}catch(e){}
+  }catch(e){
+   status.textContent=(e.message||say(f,'That didn’t send.','L’envoi n’a pas abouti.'))+' '+say(f,'You can also email sales@scaffcover.com.au.','Vous pouvez aussi écrire à sales@scaffcover.com.au.');
+   if(window.turnstile)try{window.turnstile.reset();}catch(x){}
+  }finally{btn.disabled=false;}
+ });
+})();
+</script>
+</body>
 </html>
 
 
