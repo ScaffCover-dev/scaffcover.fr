@@ -1619,7 +1619,10 @@ class Component extends DCLogic {
   for(const [n,v] of [['reason',q.get('reason')],['product',q.get('product')]]){const sel=f.elements[n];if(sel&&v&&[...sel.options].some(o=>o.value===v))sel.value=v;}
   if(TURNSTILE_SITEKEY){const slot=f.querySelector('.turnstile-slot');if(slot&&!slot.firstChild){slot.innerHTML='<div class="cf-turnstile" data-sitekey="'+TURNSTILE_SITEKEY+'"></div>';if(!document.getElementById('cf-turnstile-js')){const s=document.createElement('script');s.id='cf-turnstile-js';s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';s.async=true;document.head.appendChild(s);}else if(window.turnstile)window.turnstile.render(slot.firstChild);}}
  };
+ const LOADED=Date.now();
  const scan=()=>document.querySelectorAll('form.sc-enquiry-form').forEach(ready);
+ // Also start the clock when someone first clicks into the form (some pages draw it without a change the watcher sees).
+ document.addEventListener('focusin',(e)=>{const f=e.target&&e.target.form;if(f&&f.classList.contains('sc-enquiry-form'))ready(f);},true);
  new MutationObserver(scan).observe(document.documentElement,{childList:true,subtree:true});scan();
  document.addEventListener('submit',async(ev)=>{
   const f=ev.target;if(!(f instanceof HTMLFormElement)||!f.classList.contains('sc-enquiry-form'))return;
@@ -1629,7 +1632,7 @@ class Component extends DCLogic {
   f.querySelectorAll('[aria-invalid]').forEach(e=>e.removeAttribute('aria-invalid'));
   const bad=[['firstName',!v('firstName')],['email',!/^[^@\s]+@[^@\s]+\.[a-z]{2,}$/i.test(v('email'))],['company',!v('company')]].filter(x=>x[1]).map(x=>x[0]);
   if(bad.length){bad.forEach(n=>f.elements[n].setAttribute('aria-invalid','true'));f.elements[bad[0]].focus();status.textContent=say(f,'Please fill in your first name, a valid email and your company.','Merci d’indiquer votre prénom, une adresse e-mail valide et votre entreprise.');return;}
-  const data={firstName:v('firstName'),lastName:v('lastName'),email:v('email'),phone:v('phone'),company:v('company'),reason:v('reason'),product:v('product'),message:v('message'),newsOptIn:!!(f.elements.newsOptIn&&f.elements.newsOptIn.checked),website:v('website_confirm'),startedAt:Number(f.dataset.started)||0,site:f.dataset.site||'com',page:(location.pathname+location.hash).slice(0,300),tracking};
+  const data={firstName:v('firstName'),lastName:v('lastName'),email:v('email'),phone:v('phone'),company:v('company'),reason:v('reason'),product:v('product'),message:v('message'),newsOptIn:!!(f.elements.newsOptIn&&f.elements.newsOptIn.checked),website:v('website_confirm'),startedAt:Number(f.dataset.started)||LOADED,site:f.dataset.site||'com',page:(location.pathname+location.hash).slice(0,300),tracking};
   const tok=f.querySelector('[name="cf-turnstile-response"]');if(tok)data.turnstileToken=tok.value;
   btn.disabled=true;status.textContent=say(f,'Sending…','Envoi en cours…');
   try{
